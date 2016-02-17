@@ -31,8 +31,7 @@ function boiler_setup() {
 	 * This theme uses wp_nav_menu() in one location.
 	 */
 	register_nav_menus( array(
-		'menu-primary' => __( 'Primary Menu', 'boiler' ),
-		'menu-contact' => __( 'Contact Menu', 'boiler' )
+		'menu-footer' => __( 'Footer Menu', 'boiler' )
 	) );
 
 	/**
